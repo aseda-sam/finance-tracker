@@ -10,6 +10,9 @@ gem 'stock_quote'
 # Gem devise
 gem 'devise'
 
+# Font Awesome
+gem "font-awesome-rails"
+
 # bootstrap
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
@@ -57,7 +60,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '~> 0.11'
+  gem 'pg', '~> 0.18.4'
   gem 'rails_12factor'
 end
 
